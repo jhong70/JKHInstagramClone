@@ -7,27 +7,98 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		372443921DC45D4F002A5197 /* JKHFeedImageCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 372443911DC45D4F002A5197 /* JKHFeedImageCollectionViewCell.m */; };
+		372443951DC501DC002A5197 /* UINavigationController+Instagram.m in Sources */ = {isa = PBXBuildFile; fileRef = 372443941DC501DC002A5197 /* UINavigationController+Instagram.m */; };
+		372443981DC506C9002A5197 /* JKHFeedActionCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 372443971DC506C9002A5197 /* JKHFeedActionCollectionViewCell.m */; };
+		3724439B1DC59113002A5197 /* JKHFeedLikesCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3724439A1DC59113002A5197 /* JKHFeedLikesCollectionViewCell.m */; };
+		3724439E1DC66727002A5197 /* JKHFeedDateCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3724439D1DC66727002A5197 /* JKHFeedDateCollectionViewCell.m */; };
+		373F955D1DBFB56C00DDEDF5 /* InstagramAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 373F955C1DBFB56C00DDEDF5 /* InstagramAPI.m */; };
+		373F95601DBFD25000DDEDF5 /* JKHLoginAuthWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 373F955F1DBFD25000DDEDF5 /* JKHLoginAuthWebViewController.m */; };
+		373F95651DBFDD0300DDEDF5 /* JKHMainTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 373F95641DBFDD0300DDEDF5 /* JKHMainTabBarViewController.m */; };
+		373F95681DBFE2D100DDEDF5 /* JKHHomeNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 373F95671DBFE2D100DDEDF5 /* JKHHomeNavigationController.m */; };
+		373F956B1DBFE42200DDEDF5 /* JKHFeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 373F956A1DBFE42200DDEDF5 /* JKHFeedViewController.m */; };
+		3796D7FF1DA4295E00A5787C /* UIColor+Instagram.m in Sources */ = {isa = PBXBuildFile; fileRef = 3796D7FE1DA4295E00A5787C /* UIColor+Instagram.m */; };
+		3796D8021DA42B1A00A5787C /* JKHLoginTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 3796D8011DA42B1A00A5787C /* JKHLoginTextField.m */; };
+		3796D8051DA4359000A5787C /* JKHLoginButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3796D8041DA4359000A5787C /* JKHLoginButton.m */; };
+		3796D80B1DA4BC0C00A5787C /* JKHLoginFormView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3796D80A1DA4BC0C00A5787C /* JKHLoginFormView.m */; };
+		37B7353D1DC10B0100BF2DFD /* Instagram.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 37B7353B1DC10B0100BF2DFD /* Instagram.xcdatamodeld */; };
+		37BD32931D9EB94800D4D941 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 37BD32951D9EB94800D4D941 /* Localizable.strings */; };
+		37BD329A1D9EBE5300D4D941 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 37BD32991D9EBE5300D4D941 /* Constants.m */; };
+		37C4E82D1DC1100C00615865 /* JKHUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 37C4E82C1DC1100C00615865 /* JKHUser.m */; };
+		37C4E8301DC1140600615865 /* JKHHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 37C4E82F1DC1140600615865 /* JKHHTTPClient.m */; };
+		37C4E8381DC232EB00615865 /* JKHLoginManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 37C4E8371DC232EB00615865 /* JKHLoginManager.m */; };
+		37C4E83C1DC2C17800615865 /* JKHMedia.m in Sources */ = {isa = PBXBuildFile; fileRef = 37C4E83B1DC2C17800615865 /* JKHMedia.m */; };
+		37C4E8401DC2F70400615865 /* JKHFeedImageSectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37C4E83F1DC2F70400615865 /* JKHFeedImageSectionController.m */; };
+		37C4E8441DC3AECE00615865 /* JKHMediaCaption.m in Sources */ = {isa = PBXBuildFile; fileRef = 37C4E8431DC3AECE00615865 /* JKHMediaCaption.m */; };
+		37C4E84A1DC3B5BE00615865 /* JKHFeedHeaderCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 37C4E8491DC3B5BE00615865 /* JKHFeedHeaderCollectionViewCell.m */; };
 		37E9A0921D93111B002BA20C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E9A0911D93111B002BA20C /* main.m */; };
 		37E9A0951D93111B002BA20C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E9A0941D93111B002BA20C /* AppDelegate.m */; };
-		37E9A0981D93111B002BA20C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E9A0971D93111B002BA20C /* ViewController.m */; };
-		37E9A09B1D93111B002BA20C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37E9A0991D93111B002BA20C /* Main.storyboard */; };
-		37E9A09E1D93111B002BA20C /* Instagram.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 37E9A09C1D93111B002BA20C /* Instagram.xcdatamodeld */; };
-		37E9A0A01D93111B002BA20C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37E9A09F1D93111B002BA20C /* Assets.xcassets */; };
 		37E9A0A31D93111B002BA20C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37E9A0A11D93111B002BA20C /* LaunchScreen.storyboard */; };
+		37E9A0B81D931484002BA20C /* JKHLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E9A0B71D931484002BA20C /* JKHLoginViewController.m */; };
+		76FE7F7B1E004E4C00442910 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76FE7F7A1E004E4C00442910 /* Assets.xcassets */; };
+		7D2DCDEE1559FFCD5105DC93 /* libPods-Instagram.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BC8F5C999602AF9EB74A1E89 /* libPods-Instagram.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		372443901DC45D4F002A5197 /* JKHFeedImageCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JKHFeedImageCollectionViewCell.h; path = Application/Home/Views/JKHFeedImageCollectionViewCell.h; sourceTree = "<group>"; };
+		372443911DC45D4F002A5197 /* JKHFeedImageCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JKHFeedImageCollectionViewCell.m; path = Application/Home/Views/JKHFeedImageCollectionViewCell.m; sourceTree = "<group>"; };
+		372443931DC501DC002A5197 /* UINavigationController+Instagram.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UINavigationController+Instagram.h"; path = "Application/Common/Categories/UINavigationController+Instagram.h"; sourceTree = "<group>"; };
+		372443941DC501DC002A5197 /* UINavigationController+Instagram.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UINavigationController+Instagram.m"; path = "Application/Common/Categories/UINavigationController+Instagram.m"; sourceTree = "<group>"; };
+		372443961DC506C9002A5197 /* JKHFeedActionCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JKHFeedActionCollectionViewCell.h; path = Application/Home/Views/JKHFeedActionCollectionViewCell.h; sourceTree = "<group>"; };
+		372443971DC506C9002A5197 /* JKHFeedActionCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JKHFeedActionCollectionViewCell.m; path = Application/Home/Views/JKHFeedActionCollectionViewCell.m; sourceTree = "<group>"; };
+		372443991DC59113002A5197 /* JKHFeedLikesCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JKHFeedLikesCollectionViewCell.h; path = Application/Home/Views/JKHFeedLikesCollectionViewCell.h; sourceTree = "<group>"; };
+		3724439A1DC59113002A5197 /* JKHFeedLikesCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JKHFeedLikesCollectionViewCell.m; path = Application/Home/Views/JKHFeedLikesCollectionViewCell.m; sourceTree = "<group>"; };
+		3724439C1DC66727002A5197 /* JKHFeedDateCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JKHFeedDateCollectionViewCell.h; path = Application/Home/Views/JKHFeedDateCollectionViewCell.h; sourceTree = "<group>"; };
+		3724439D1DC66727002A5197 /* JKHFeedDateCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JKHFeedDateCollectionViewCell.m; path = Application/Home/Views/JKHFeedDateCollectionViewCell.m; sourceTree = "<group>"; };
+		373F955B1DBFB56C00DDEDF5 /* InstagramAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InstagramAPI.h; path = Application/Common/Networking/InstagramAPI/InstagramAPI.h; sourceTree = "<group>"; };
+		373F955C1DBFB56C00DDEDF5 /* InstagramAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InstagramAPI.m; path = Application/Common/Networking/InstagramAPI/InstagramAPI.m; sourceTree = "<group>"; };
+		373F955E1DBFD25000DDEDF5 /* JKHLoginAuthWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JKHLoginAuthWebViewController.h; path = Application/Login/ViewControllers/JKHLoginAuthWebViewController.h; sourceTree = "<group>"; };
+		373F955F1DBFD25000DDEDF5 /* JKHLoginAuthWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JKHLoginAuthWebViewController.m; path = Application/Login/ViewControllers/JKHLoginAuthWebViewController.m; sourceTree = "<group>"; };
+		373F95631DBFDD0300DDEDF5 /* JKHMainTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JKHMainTabBarViewController.h; path = Application/Main/ViewControllers/JKHMainTabBarViewController.h; sourceTree = "<group>"; };
+		373F95641DBFDD0300DDEDF5 /* JKHMainTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JKHMainTabBarViewController.m; path = Application/Main/ViewControllers/JKHMainTabBarViewController.m; sourceTree = "<group>"; };
+		373F95661DBFE2D100DDEDF5 /* JKHHomeNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JKHHomeNavigationController.h; path = Application/Home/ViewControllers/JKHHomeNavigationController.h; sourceTree = "<group>"; };
+		373F95671DBFE2D100DDEDF5 /* JKHHomeNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JKHHomeNavigationController.m; path = Application/Home/ViewControllers/JKHHomeNavigationController.m; sourceTree = "<group>"; };
+		373F95691DBFE42200DDEDF5 /* JKHFeedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JKHFeedViewController.h; path = Application/Home/ViewControllers/JKHFeedViewController.h; sourceTree = "<group>"; };
+		373F956A1DBFE42200DDEDF5 /* JKHFeedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JKHFeedViewController.m; path = Application/Home/ViewControllers/JKHFeedViewController.m; sourceTree = "<group>"; };
+		378847A49FA4AB95546CE9DE /* Pods-Instagram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Instagram.release.xcconfig"; path = "Pods/Target Support Files/Pods-Instagram/Pods-Instagram.release.xcconfig"; sourceTree = "<group>"; };
+		3796D7FD1DA4295E00A5787C /* UIColor+Instagram.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+Instagram.h"; path = "Application/Common/Categories/UIColor+Instagram.h"; sourceTree = "<group>"; };
+		3796D7FE1DA4295E00A5787C /* UIColor+Instagram.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Instagram.m"; path = "Application/Common/Categories/UIColor+Instagram.m"; sourceTree = "<group>"; };
+		3796D8001DA42B1A00A5787C /* JKHLoginTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JKHLoginTextField.h; path = Application/Login/Views/JKHLoginTextField.h; sourceTree = "<group>"; };
+		3796D8011DA42B1A00A5787C /* JKHLoginTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JKHLoginTextField.m; path = Application/Login/Views/JKHLoginTextField.m; sourceTree = "<group>"; };
+		3796D8031DA4359000A5787C /* JKHLoginButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JKHLoginButton.h; path = Application/Login/Views/JKHLoginButton.h; sourceTree = "<group>"; };
+		3796D8041DA4359000A5787C /* JKHLoginButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JKHLoginButton.m; path = Application/Login/Views/JKHLoginButton.m; sourceTree = "<group>"; };
+		3796D8091DA4BC0C00A5787C /* JKHLoginFormView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JKHLoginFormView.h; path = Application/Login/Views/JKHLoginFormView.h; sourceTree = "<group>"; };
+		3796D80A1DA4BC0C00A5787C /* JKHLoginFormView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JKHLoginFormView.m; path = Application/Login/Views/JKHLoginFormView.m; sourceTree = "<group>"; };
+		37B7353C1DC10B0100BF2DFD /* Instagram.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Instagram.xcdatamodel; sourceTree = "<group>"; };
+		37BD32941D9EB94800D4D941 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		37BD32961D9EBCA600D4D941 /* Instagram-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Instagram-Prefix.pch"; path = "Application/Common/Instagram-Prefix.pch"; sourceTree = "<group>"; };
+		37BD32971D9EBCD000D4D941 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Constants.h; path = Application/Common/Constants.h; sourceTree = "<group>"; };
+		37BD32991D9EBE5300D4D941 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Constants.m; path = Application/Common/Constants.m; sourceTree = "<group>"; };
+		37C4E82B1DC1100C00615865 /* JKHUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JKHUser.h; path = Models/Common/JKHUser.h; sourceTree = "<group>"; };
+		37C4E82C1DC1100C00615865 /* JKHUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JKHUser.m; path = Models/Common/JKHUser.m; sourceTree = "<group>"; };
+		37C4E82E1DC1140600615865 /* JKHHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JKHHTTPClient.h; path = Application/Common/Networking/JKHHTTPClient.h; sourceTree = "<group>"; };
+		37C4E82F1DC1140600615865 /* JKHHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JKHHTTPClient.m; path = Application/Common/Networking/JKHHTTPClient.m; sourceTree = "<group>"; };
+		37C4E8361DC232EB00615865 /* JKHLoginManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JKHLoginManager.h; path = Application/Login/Controllers/JKHLoginManager.h; sourceTree = "<group>"; };
+		37C4E8371DC232EB00615865 /* JKHLoginManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JKHLoginManager.m; path = Application/Login/Controllers/JKHLoginManager.m; sourceTree = "<group>"; };
+		37C4E83A1DC2C17800615865 /* JKHMedia.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JKHMedia.h; path = Models/Common/JKHMedia.h; sourceTree = "<group>"; };
+		37C4E83B1DC2C17800615865 /* JKHMedia.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JKHMedia.m; path = Models/Common/JKHMedia.m; sourceTree = "<group>"; };
+		37C4E83E1DC2F70400615865 /* JKHFeedImageSectionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JKHFeedImageSectionController.h; path = Application/Home/Controllers/JKHFeedImageSectionController.h; sourceTree = "<group>"; };
+		37C4E83F1DC2F70400615865 /* JKHFeedImageSectionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JKHFeedImageSectionController.m; path = Application/Home/Controllers/JKHFeedImageSectionController.m; sourceTree = "<group>"; };
+		37C4E8421DC3AECE00615865 /* JKHMediaCaption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JKHMediaCaption.h; path = Models/Common/JKHMediaCaption.h; sourceTree = "<group>"; };
+		37C4E8431DC3AECE00615865 /* JKHMediaCaption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JKHMediaCaption.m; path = Models/Common/JKHMediaCaption.m; sourceTree = "<group>"; };
+		37C4E8481DC3B5BE00615865 /* JKHFeedHeaderCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JKHFeedHeaderCollectionViewCell.h; path = Application/Home/Views/JKHFeedHeaderCollectionViewCell.h; sourceTree = "<group>"; };
+		37C4E8491DC3B5BE00615865 /* JKHFeedHeaderCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JKHFeedHeaderCollectionViewCell.m; path = Application/Home/Views/JKHFeedHeaderCollectionViewCell.m; sourceTree = "<group>"; };
 		37E9A08D1D93111B002BA20C /* Instagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Instagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		37E9A0911D93111B002BA20C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		37E9A0931D93111B002BA20C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		37E9A0941D93111B002BA20C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		37E9A0961D93111B002BA20C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		37E9A0971D93111B002BA20C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		37E9A09A1D93111B002BA20C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		37E9A09D1D93111B002BA20C /* Instagram.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Instagram.xcdatamodel; sourceTree = "<group>"; };
-		37E9A09F1D93111B002BA20C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		37E9A0911D93111B002BA20C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = "Supporting Files/main.m"; sourceTree = "<group>"; };
+		37E9A0931D93111B002BA20C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Application/AppDelegate.h; sourceTree = "<group>"; };
+		37E9A0941D93111B002BA20C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Application/AppDelegate.m; sourceTree = "<group>"; };
 		37E9A0A21D93111B002BA20C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		37E9A0A41D93111B002BA20C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37E9A0B61D931484002BA20C /* JKHLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JKHLoginViewController.h; path = Application/Login/ViewControllers/JKHLoginViewController.h; sourceTree = "<group>"; };
+		37E9A0B71D931484002BA20C /* JKHLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JKHLoginViewController.m; path = Application/Login/ViewControllers/JKHLoginViewController.m; sourceTree = "<group>"; };
+		7683C058281E9DEA4A3DC640 /* Pods-Instagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Instagram.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Instagram/Pods-Instagram.debug.xcconfig"; sourceTree = "<group>"; };
+		76FE7F7A1E004E4C00442910 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Assets/Assets.xcassets; sourceTree = "<group>"; };
+		BC8F5C999602AF9EB74A1E89 /* libPods-Instagram.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Instagram.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,17 +106,161 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D2DCDEE1559FFCD5105DC93 /* libPods-Instagram.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		286ED2A3529C6E173E46CC92 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7683C058281E9DEA4A3DC640 /* Pods-Instagram.debug.xcconfig */,
+				378847A49FA4AB95546CE9DE /* Pods-Instagram.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		373F95561DBFB4DF00DDEDF5 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				373F95571DBFB4E900DDEDF5 /* InstagramAPI */,
+				37C4E82E1DC1140600615865 /* JKHHTTPClient.h */,
+				37C4E82F1DC1140600615865 /* JKHHTTPClient.m */,
+			);
+			name = Networking;
+			sourceTree = "<group>";
+		};
+		373F95571DBFB4E900DDEDF5 /* InstagramAPI */ = {
+			isa = PBXGroup;
+			children = (
+				373F955B1DBFB56C00DDEDF5 /* InstagramAPI.h */,
+				373F955C1DBFB56C00DDEDF5 /* InstagramAPI.m */,
+			);
+			name = InstagramAPI;
+			sourceTree = "<group>";
+		};
+		373F95611DBFDC5600DDEDF5 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				373F95621DBFDC8400DDEDF5 /* ViewControllers */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		373F95621DBFDC8400DDEDF5 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				373F95631DBFDD0300DDEDF5 /* JKHMainTabBarViewController.h */,
+				373F95641DBFDD0300DDEDF5 /* JKHMainTabBarViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		3796D7FC1DA4293100A5787C /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				3796D7FD1DA4295E00A5787C /* UIColor+Instagram.h */,
+				3796D7FE1DA4295E00A5787C /* UIColor+Instagram.m */,
+				372443931DC501DC002A5197 /* UINavigationController+Instagram.h */,
+				372443941DC501DC002A5197 /* UINavigationController+Instagram.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		37B735311DC0FD4B00BF2DFD /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				76FE7F7A1E004E4C00442910 /* Assets.xcassets */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		37B735321DC0FD5C00BF2DFD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				37C4E82A1DC10FE000615865 /* Common */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		37B735341DC0FD8900BF2DFD /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				37E9A0A11D93111B002BA20C /* LaunchScreen.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		37B735371DC1020C00BF2DFD /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				76FE7F7C1E00581B00442910 /* Presentation */,
+				37B735391DC1053800BF2DFD /* Data */,
+				373F95561DBFB4DF00DDEDF5 /* Networking */,
+				3796D7FC1DA4293100A5787C /* Categories */,
+				37BD32961D9EBCA600D4D941 /* Instagram-Prefix.pch */,
+				37BD32971D9EBCD000D4D941 /* Constants.h */,
+				37BD32991D9EBE5300D4D941 /* Constants.m */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		37B735391DC1053800BF2DFD /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				37C4E8411DC3939800615865 /* Controllers */,
+				37B7353B1DC10B0100BF2DFD /* Instagram.xcdatamodeld */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		37C4E82A1DC10FE000615865 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				37C4E82B1DC1100C00615865 /* JKHUser.h */,
+				37C4E82C1DC1100C00615865 /* JKHUser.m */,
+				37C4E83A1DC2C17800615865 /* JKHMedia.h */,
+				37C4E83B1DC2C17800615865 /* JKHMedia.m */,
+				37C4E8421DC3AECE00615865 /* JKHMediaCaption.h */,
+				37C4E8431DC3AECE00615865 /* JKHMediaCaption.m */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		37C4E8351DC232D500615865 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				37C4E8361DC232EB00615865 /* JKHLoginManager.h */,
+				37C4E8371DC232EB00615865 /* JKHLoginManager.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		37C4E83D1DC2F6CE00615865 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				37C4E83E1DC2F70400615865 /* JKHFeedImageSectionController.h */,
+				37C4E83F1DC2F70400615865 /* JKHFeedImageSectionController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		37C4E8411DC3939800615865 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
 		37E9A0841D93111B002BA20C = {
 			isa = PBXGroup;
 			children = (
 				37E9A08F1D93111B002BA20C /* Instagram */,
 				37E9A08E1D93111B002BA20C /* Products */,
+				286ED2A3529C6E173E46CC92 /* Pods */,
+				5CEAE3F869632B77E69B9ED2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,15 +275,10 @@
 		37E9A08F1D93111B002BA20C /* Instagram */ = {
 			isa = PBXGroup;
 			children = (
-				37E9A0931D93111B002BA20C /* AppDelegate.h */,
-				37E9A0941D93111B002BA20C /* AppDelegate.m */,
-				37E9A0961D93111B002BA20C /* ViewController.h */,
-				37E9A0971D93111B002BA20C /* ViewController.m */,
-				37E9A0991D93111B002BA20C /* Main.storyboard */,
-				37E9A09F1D93111B002BA20C /* Assets.xcassets */,
-				37E9A0A11D93111B002BA20C /* LaunchScreen.storyboard */,
-				37E9A0A41D93111B002BA20C /* Info.plist */,
-				37E9A09C1D93111B002BA20C /* Instagram.xcdatamodeld */,
+				37B735341DC0FD8900BF2DFD /* Storyboards */,
+				37B735321DC0FD5C00BF2DFD /* Models */,
+				37B735311DC0FD4B00BF2DFD /* Assets */,
+				37E9A0AA1D931128002BA20C /* Application */,
 				37E9A0901D93111B002BA20C /* Supporting Files */,
 			);
 			path = Instagram;
@@ -77,9 +287,127 @@
 		37E9A0901D93111B002BA20C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				37E9A0A41D93111B002BA20C /* Info.plist */,
 				37E9A0911D93111B002BA20C /* main.m */,
+				37BD32951D9EB94800D4D941 /* Localizable.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		37E9A0AA1D931128002BA20C /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				37B735371DC1020C00BF2DFD /* Common */,
+				37E9A0941D93111B002BA20C /* AppDelegate.m */,
+				37E9A0931D93111B002BA20C /* AppDelegate.h */,
+				373F95611DBFDC5600DDEDF5 /* Main */,
+				37E9A0B21D9312D5002BA20C /* Login */,
+				37E9A0AB1D93112E002BA20C /* Home */,
+			);
+			name = Application;
+			sourceTree = "<group>";
+		};
+		37E9A0AB1D93112E002BA20C /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				37C4E83D1DC2F6CE00615865 /* Controllers */,
+				37E9A0AF1D93115E002BA20C /* Models */,
+				37E9A0AE1D931153002BA20C /* ViewControllers */,
+				37E9A0AD1D93114A002BA20C /* Views */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		37E9A0AD1D93114A002BA20C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				37C4E8481DC3B5BE00615865 /* JKHFeedHeaderCollectionViewCell.h */,
+				37C4E8491DC3B5BE00615865 /* JKHFeedHeaderCollectionViewCell.m */,
+				372443901DC45D4F002A5197 /* JKHFeedImageCollectionViewCell.h */,
+				372443911DC45D4F002A5197 /* JKHFeedImageCollectionViewCell.m */,
+				372443961DC506C9002A5197 /* JKHFeedActionCollectionViewCell.h */,
+				372443971DC506C9002A5197 /* JKHFeedActionCollectionViewCell.m */,
+				372443991DC59113002A5197 /* JKHFeedLikesCollectionViewCell.h */,
+				3724439A1DC59113002A5197 /* JKHFeedLikesCollectionViewCell.m */,
+				3724439C1DC66727002A5197 /* JKHFeedDateCollectionViewCell.h */,
+				3724439D1DC66727002A5197 /* JKHFeedDateCollectionViewCell.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		37E9A0AE1D931153002BA20C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				373F95661DBFE2D100DDEDF5 /* JKHHomeNavigationController.h */,
+				373F95671DBFE2D100DDEDF5 /* JKHHomeNavigationController.m */,
+				373F95691DBFE42200DDEDF5 /* JKHFeedViewController.h */,
+				373F956A1DBFE42200DDEDF5 /* JKHFeedViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		37E9A0AF1D93115E002BA20C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		37E9A0B21D9312D5002BA20C /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				37C4E8351DC232D500615865 /* Controllers */,
+				37E9A0B51D93143D002BA20C /* Models */,
+				37E9A0B41D931439002BA20C /* Views */,
+				37E9A0B31D931434002BA20C /* ViewControllers */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		37E9A0B31D931434002BA20C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				37E9A0B61D931484002BA20C /* JKHLoginViewController.h */,
+				37E9A0B71D931484002BA20C /* JKHLoginViewController.m */,
+				373F955E1DBFD25000DDEDF5 /* JKHLoginAuthWebViewController.h */,
+				373F955F1DBFD25000DDEDF5 /* JKHLoginAuthWebViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		37E9A0B41D931439002BA20C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3796D8001DA42B1A00A5787C /* JKHLoginTextField.h */,
+				3796D8011DA42B1A00A5787C /* JKHLoginTextField.m */,
+				3796D8031DA4359000A5787C /* JKHLoginButton.h */,
+				3796D8041DA4359000A5787C /* JKHLoginButton.m */,
+				3796D8091DA4BC0C00A5787C /* JKHLoginFormView.h */,
+				3796D80A1DA4BC0C00A5787C /* JKHLoginFormView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		37E9A0B51D93143D002BA20C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		5CEAE3F869632B77E69B9ED2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BC8F5C999602AF9EB74A1E89 /* libPods-Instagram.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		76FE7F7C1E00581B00442910 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Presentation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -89,9 +417,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 37E9A0A71D93111B002BA20C /* Build configuration list for PBXNativeTarget "Instagram" */;
 			buildPhases = (
+				EB3B75A1DCCE6B2548BA84B7 /* [CP] Check Pods Manifest.lock */,
 				37E9A0891D93111B002BA20C /* Sources */,
 				37E9A08A1D93111B002BA20C /* Frameworks */,
 				37E9A08B1D93111B002BA20C /* Resources */,
+				F8CB692AE340CC4B0D9FB411 /* [CP] Embed Pods Frameworks */,
+				52599C997699ABFB209ACCF6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -108,7 +439,7 @@
 		37E9A0851D93111B002BA20C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = JoonKiHong;
 				TargetAttributes = {
 					37E9A08C1D93111B002BA20C = {
@@ -140,35 +471,105 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37BD32931D9EB94800D4D941 /* Localizable.strings in Resources */,
+				76FE7F7B1E004E4C00442910 /* Assets.xcassets in Resources */,
 				37E9A0A31D93111B002BA20C /* LaunchScreen.storyboard in Resources */,
-				37E9A0A01D93111B002BA20C /* Assets.xcassets in Resources */,
-				37E9A09B1D93111B002BA20C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		52599C997699ABFB209ACCF6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Instagram/Pods-Instagram-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB3B75A1DCCE6B2548BA84B7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F8CB692AE340CC4B0D9FB411 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Instagram/Pods-Instagram-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		37E9A0891D93111B002BA20C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				37E9A09E1D93111B002BA20C /* Instagram.xcdatamodeld in Sources */,
-				37E9A0981D93111B002BA20C /* ViewController.m in Sources */,
+				372443921DC45D4F002A5197 /* JKHFeedImageCollectionViewCell.m in Sources */,
+				37C4E8401DC2F70400615865 /* JKHFeedImageSectionController.m in Sources */,
+				37C4E83C1DC2C17800615865 /* JKHMedia.m in Sources */,
+				373F95601DBFD25000DDEDF5 /* JKHLoginAuthWebViewController.m in Sources */,
+				3796D7FF1DA4295E00A5787C /* UIColor+Instagram.m in Sources */,
+				373F955D1DBFB56C00DDEDF5 /* InstagramAPI.m in Sources */,
+				372443981DC506C9002A5197 /* JKHFeedActionCollectionViewCell.m in Sources */,
+				37E9A0B81D931484002BA20C /* JKHLoginViewController.m in Sources */,
+				3796D80B1DA4BC0C00A5787C /* JKHLoginFormView.m in Sources */,
+				37C4E84A1DC3B5BE00615865 /* JKHFeedHeaderCollectionViewCell.m in Sources */,
+				37C4E8441DC3AECE00615865 /* JKHMediaCaption.m in Sources */,
+				373F95651DBFDD0300DDEDF5 /* JKHMainTabBarViewController.m in Sources */,
+				37C4E8301DC1140600615865 /* JKHHTTPClient.m in Sources */,
+				373F956B1DBFE42200DDEDF5 /* JKHFeedViewController.m in Sources */,
+				3796D8021DA42B1A00A5787C /* JKHLoginTextField.m in Sources */,
+				37B7353D1DC10B0100BF2DFD /* Instagram.xcdatamodeld in Sources */,
+				37C4E8381DC232EB00615865 /* JKHLoginManager.m in Sources */,
 				37E9A0951D93111B002BA20C /* AppDelegate.m in Sources */,
+				3796D8051DA4359000A5787C /* JKHLoginButton.m in Sources */,
+				373F95681DBFE2D100DDEDF5 /* JKHHomeNavigationController.m in Sources */,
+				372443951DC501DC002A5197 /* UINavigationController+Instagram.m in Sources */,
+				3724439B1DC59113002A5197 /* JKHFeedLikesCollectionViewCell.m in Sources */,
+				3724439E1DC66727002A5197 /* JKHFeedDateCollectionViewCell.m in Sources */,
 				37E9A0921D93111B002BA20C /* main.m in Sources */,
+				37BD329A1D9EBE5300D4D941 /* Constants.m in Sources */,
+				37C4E82D1DC1100C00615865 /* JKHUser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		37E9A0991D93111B002BA20C /* Main.storyboard */ = {
+		37BD32951D9EB94800D4D941 /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				37E9A09A1D93111B002BA20C /* Base */,
+				37BD32941D9EB94800D4D941 /* en */,
 			);
-			name = Main.storyboard;
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 		37E9A0A11D93111B002BA20C /* LaunchScreen.storyboard */ = {
@@ -200,6 +601,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -247,6 +649,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -272,9 +675,12 @@
 		};
 		37E9A0A81D93111B002BA20C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7683C058281E9DEA4A3DC640 /* Pods-Instagram.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "Instagram/Application/Common/Instagram-Prefix.pch";
 				INFOPLIST_FILE = Instagram/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.JoonKiHong.Instagram;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -283,9 +689,12 @@
 		};
 		37E9A0A91D93111B002BA20C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 378847A49FA4AB95546CE9DE /* Pods-Instagram.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "Instagram/Application/Common/Instagram-Prefix.pch";
 				INFOPLIST_FILE = Instagram/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.JoonKiHong.Instagram;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -311,17 +720,19 @@
 				37E9A0A91D93111B002BA20C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		37E9A09C1D93111B002BA20C /* Instagram.xcdatamodeld */ = {
+		37B7353B1DC10B0100BF2DFD /* Instagram.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				37E9A09D1D93111B002BA20C /* Instagram.xcdatamodel */,
+				37B7353C1DC10B0100BF2DFD /* Instagram.xcdatamodel */,
 			);
-			currentVersion = 37E9A09D1D93111B002BA20C /* Instagram.xcdatamodel */;
-			path = Instagram.xcdatamodeld;
+			currentVersion = 37B7353C1DC10B0100BF2DFD /* Instagram.xcdatamodel */;
+			name = Instagram.xcdatamodeld;
+			path = Application/Common/Data/Instagram.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

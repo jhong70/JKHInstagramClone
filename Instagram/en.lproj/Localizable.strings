@@ -1,0 +1,14 @@
+/* 
+  Localizable.strings
+  Instagram
+
+  Created by Joon Hong on 9/30/16.
+  Copyright © 2016 JoonKiHong. All rights reserved.
+*/
+
+
+// Login
+
+loginUserNamePlaceholder = "Username";
+loginPasswordPlaceholder = "Password";
+loginButtonTitle = "Login";

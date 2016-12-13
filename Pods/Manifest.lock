@@ -1,0 +1,26 @@
+PODS:
+  - DateTools (1.7.0)
+  - IGListKit (2.0.0)
+  - Masonry (1.0.2)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+  - UICKeyChainStore (2.1.0)
+
+DEPENDENCIES:
+  - DateTools
+  - IGListKit (~> 2.0)
+  - Masonry
+  - SDWebImage (~> 3.8)
+  - UICKeyChainStore
+
+SPEC CHECKSUMS:
+  DateTools: 53288ee8b905fdc75897a1e6b5cc0144b14cba60
+  IGListKit: ee255e4e61865bc3e01ca96b690c5435c2887849
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+  UICKeyChainStore: f1cbd42216a113f0165de1e733e62905b8823432
+
+PODFILE CHECKSUM: 185e3442138e6e4e6a2626f8dbf4b7d17e4de073
+
+COCOAPODS: 1.1.1
