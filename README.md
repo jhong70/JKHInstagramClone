@@ -9,7 +9,7 @@ This project was built to experiment with the following:
 1. Programmatic Views (No Storyboarding)
 2. Programmatic Auto Layout Constraints
 3. IGListKit
-4. CoreAnimation
+4. Animating Background Gradient
 
 See the example below:
 
